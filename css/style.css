@@ -1,0 +1,64 @@
+.title {
+  font-weight: 900;
+  font-size: 160%;
+}
+
+.no_puce {
+  list-style-type: none;
+}
+
+.or {
+  color: orange;
+}
+.bl {
+  color: blue;
+}
+.yel {
+  color: rgba(230, 226, 6, 0.733);
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.pur {
+  color: rgb(129, 11, 129);
+}
+
+.bg-guitton {
+  background-color: rgb(129, 11, 129);
+}
+.vio {
+  background-color: #5d54a4;
+}
+
+.image-ronde {
+  width: 200px;
+  height: 200px;
+  border: none;
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  border-radius: 100px;
+}
+
+.bg-principal {
+  background: url(../img/BENJI02.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.gras {
+  font-weight: 900;
+}
+
+.bg-profile {
+  background: url("../img/bg-profile.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: cover; */
+}
