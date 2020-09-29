@@ -62,3 +62,20 @@
   -o-background-size: cover;
   /* background-size: cover; */
 }
+
+.contact {
+  margin: 0 auto;
+  width: 500px;
+
+  padding: 1em;
+  border: 1px shadow rgb(0, 0, 0);
+  border-radius: 3em;
+}
+
+.contact div + div {
+  margin-top: 2em;
+}
+
+.h5 {
+  margin: 0 auto;
+}
