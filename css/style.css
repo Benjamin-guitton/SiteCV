@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .title {
   font-weight: 900;
   font-size: 160%;
@@ -36,6 +40,10 @@
   background-color: #5d54a4;
 }
 
+.text-vio {
+  color: #5d54a4;
+}
+
 .image-ronde {
   width: 200px;
   height: 200px;
@@ -63,14 +71,14 @@
   /* background-size: cover; */
 }
 
-.contact {
+/* .contact {
   margin: 0 auto;
   width: 500px;
 
   padding: 1em;
   border: 1px shadow rgb(0, 0, 0);
   border-radius: 3em;
-}
+} */
 
 .contact div + div {
   margin-top: 2em;

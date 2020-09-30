@@ -28,9 +28,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Start your project here-->
 
-    <!--Navbar -->
     <nav
       class=" navbar navbar-expand-lg navbar-dark vio sticky-top"
     >
@@ -59,39 +57,16 @@
           <li class="nav-item">
             <a class="nav-link" href="#skill">Compétences</a>
           </li>
-          <li class="nav-item dropdown">           
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto nav-flex-icons">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              id="navbarDropdownMenuLink-333"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <i class="fas fa-user"></i>
-            </a>
-            <div
-              class="dropdown-menu dropdown-menu-right dropdown-default"
-              aria-labelledby="navbarDropdownMenuLink-333"
-            >
-              <a class="dropdown-item" href="#">Contact</a>
-              <a class="dropdown-item" href="#">Ouais tkt</a>
-            </div>
-          </li>
+
         </ul>
       </div>
     </nav>
-    <!--/.Navbar -->
 
     <section id="profile">
       <div class="container-fluid bg-profile mask pattern-8">
         <div class="row py-5">
           <div class="col text-center">
-            <img src="./img/0.jpg" alt="" class="rounded-circle border border-secondary animated pulse infinite" width="250px" height="250px">
+            <img src="./img/0.jpg" alt="" class="rounded-circle border border-secondary animated pulse infinite" width="200px" height="200px">
           </div>
         </div>
         <div class="row">
@@ -101,7 +76,7 @@
           </div>
         </div>
         <div class="row py-3">
-          <div class="col text-right mx-0"><div class="btn vio rounded text-white z-depth-2">CV.pdf</div></div>
+          <div class="col text-right mx-0"><a href=""></a><div class="btn vio rounded text-white z-depth-2">CV.pdf</div></div>
           <div class="col text-left mx-0"><div class="btn vio rounded text-white z-depth-2">Soon</div></div>
         </div>
       </div>
@@ -110,28 +85,23 @@
     <section id="info" class="my-5 py-3">
       <div class="container">
         <div class="row">
-
-          <div class="col">
-            <div class="row">
-            <div class="col d-flex justify-content-center">
-              <div class="card z-depth-2">
+            <div class="col-lg-6 my-2">
+              <div class="card h-100">
                 <div class="card-body">
-                  <h4 class="card-title"><a>Informations</a></h4>
-                  <p class="card-text">
-                  <p class="gras">
+                  <h4 class="card-title text-center"><a>Informations</a></h4>
+                  <p class="card-text gras">
                     <p><b>AGE:</b><span class="px-2">22</span></p>
                     <p><b>TELEPHONE:</b> <span class="px-2">0667828863</span></p>
                     <p><b>EMAIL:</b><span class="px-2"> benjamin.guittons@outlook.com</span</p>
                     <p><b>LANGUE MAITRISEES:</b><span class="px-2"> Français, Anglais</span></p>
                   </p>
-                  </p>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card z-depth-2">
+            <div class="col-lg-6 my-2">
+              <div class="card h-10">
                 <div class="card-body ">
-                  <h4 class="card-title"><a>Présentation</a></h4>
+                  <h4 class="card-title text-center"><a>Présentation</a></h4>
                   <p class="card-text text-justify">
                     <p>Bonjour je suis Benjamin, en formation Développeur Web.</p>
                     <p>J'ai un CAP en serrurerie metallerie, je me forme actuellement pour devenir Developpeur Web.</p>
@@ -142,32 +112,103 @@
             </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
     <section id="skill" class="my-5 py-5">
       <div class="container">
-        <div class="row"><div class="col text-center my-5"><span class="h1">Mes Compétences</span></div></div>
         <div class="row">
-          <div class="col">
-            <div class="card">
-              <!-- Card image -->
-
-              <!-- Card content -->
-              <div class="card-body">
-                <!-- Title -->
-
+          <div class="col text-center my-5"><span class="h1">Mes Compétences</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col"> <i class="fab fa-html5 fa-4x or"></i></div>
+                  <div class="col"> <i class="fab fa-css3 fa-4x bl"></i></div>
+                </div>
+                <p class="h5-responsive gras my-1">HTML5 & CSS3</p>
+                <div class="progress my-5">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col"><i class="fab fa-php fa-4x pur"></i></div>
+                  <div class="col"><i class="fas fa-database light-blue-text fa-4x "></i></div>
+                </div>
+                <p class="h5-responsive gras my-1">PHP & SQL</p>
+                <div class="progress my-5">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-js-square fa-4x yel"></i>
+                <p class="h5-responsive gras my-1">JavaScript & jQuery</p>
+                <div class="progress my-5">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-plus-circle fa-5x green-text"></i>
                 <div class="row my-5">
-                  <div class="col">
-                    <ul class="no_puce">
-                      <li>
-                        <span class="badge mb-5" style="width: 100%">
-                          <i class="fab fa-html5 fa-5x or"></i>
-                          <div class="text-wrap text-dark my-3">
+                  <div class="col text-center p-0">
+                    <span class="badge vio">Wordpress</span>
+                  </div>
+                  <div class="col text-center p-0">
+                    <span class="badge badge vio">Joomla</span>
+                  </div>
+                  <div class="col text-center p-0">
+                    <span class="badge vio">Prestashop</span>
+                  </div>
+                </div>
+
+                <!-- <p class="h5-responsive my-3">Wordpress</p>
+                <p class="h5-responsive my-3">Joomla</p>
+                <p class="h5-responsive my-3">Prestashop</p> -->
+
+              </div>
+            </div>
+          </div>
+                          <!-- <div class="text-wrap text-dark my-3">
                             <h4>HTML5</h4>
-                          </div>
-                          <div class="progress">
+                          </div> -->
+                          <!-- <div class="progress">
                             <div
                               class="progress-bar"
                               role="progressbar"
@@ -175,109 +216,7 @@
                               aria-valuenow="80"
                               aria-valuemin="0"
                               aria-valuemax="100"
-                            ></div></div
-                        ></span>
-                      </li>
-                      <li>
-                        <span class="badge mb-5" style="width: 100%">
-                          <i class="fab fa-js-square fa-5x yel"></i>
-                          <div class="text-wrap text-dark my-3">
-                            <h4>JavaScript</h4>
-                          </div>
-                          <div class="progress">
-                            <div
-                              class="progress-bar"
-                              role="progressbar"
-                              style="width: 5%"
-                              aria-valuenow="80"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div></div
-                        ></span>
-                      </li>
-                      <li>
-                        <span class="badge mb-3" style="width: 100%">
-                          <i class="fab fa-css3-alt fa-5x bl"></i>
-                          <div class="text-wrap text-dark my-3">
-                            <h4>CSS3</h4>
-                          </div>
-                          <div class="progress">
-                            <div
-                              class="progress-bar"
-                              role="progressbar"
-                              style="width: 45%"
-                              aria-valuenow="80"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div></div
-                        ></span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col">
-                    <ul class="no_puce">
-                      <li>
-                        <span class="badge mb-5" style="width: 100%">
-                          <i class="fab fa-php fa-5x pur"></i>
-                          <div class="text-wrap text-dark my-3">
-                            <h4>PHP</h4>
-                          </div>
-                          <div class="progress">
-                            <div
-                              class="progress-bar"
-                              role="progressbar"
-                              style="width: 15%"
-                              aria-valuenow="80"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div></div
-                        ></span>
-                      </li>
-                      <li>
-                        <span class="badge mb-5" style="width: 100%">
-                          <i class="fas fa-database fa-5x light-blue-text"></i>
-                          <div class="text-wrap text-dark my-3">
-                            <h4>SQL</h4>
-                          </div>
-                          <div class="progress">
-                            <div
-                              class="progress-bar"
-                              role="progressbar"
-                              style="width: 5%"
-                              aria-valuenow="80"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div>
-                        </span>
-                      </li>
-                      <li>
-                        <span class="badge mb-3" style="width: 100%">
-                          <div class="text-wrap text-dark my-3"></div>
-                          <div class="text-wrap text-dark my-3">
-                            <h6>Wordpress</h6>
-                          </div>
-                          <div class="text-wrap text-dark my-3">
-                            <h6>Prestashop</h6>
-                          </div>
-                          <div class="text-wrap text-dark">
-                            <h6>Joomla</h6>
-                            <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  role="progressbar"
-                                  style="width: 10%"
-                                  aria-valuenow="80"
-                                  aria-valuemin="0"
-                                  aria-valuemax="100"
-                                ></div>
-                          </div>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+                            ></div></div -->
           </div>
         </div>
       </div>
@@ -285,63 +224,102 @@
 
     <section id="experience">
       <div class="container my-5">
-        <div class="row"><div class="col text-center my-5"><span class="h1">Mes experiences</span></div></div>
-      <div class="row my-5">
-        <div class="col-3 pr-0 d-flex align-items-stretch">
-          <div class="card vio z-depth-0"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div>
-        </div>
-        <div class="col-9 pl-0 d-flex align-items-stretch">
-          <div class="card"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates veniam debitis beatae esse incidunt quos, inventore provident iure ad facere quibusdam dolor? Aliquid atque odit quod maiores, tenetur eligendi!</p></div></div>
-        </div>
-      </div>
-
-      <div class="row my-5">
-        <div class="col-3 pr-0 d-flex align-items-stretch">
-          <div class="card vio z-depth-0"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div>
-        </div>
-        <div class="col-9 pl-0 d-flex align-items-stretch">
-          <div class="card"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates veniam debitis beatae esse incidunt quos, inventore provident iure ad facere quibusdam dolor? Aliquid atque odit quod maiores, tenetur eligendi!</p></div></div>
-        </div>
-      </div>
-        <div class="row my-5">
-
-          <div class="col-3 pr-0 d-flex align-items-stretch">
-            <div class="card vio z-depth-0"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div>
-          </div>
-          <div class="col-9 pl-0 d-flex align-items-stretch">
-            <div class="card"><div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates veniam debitis beatae esse incidunt quos, inventore provident iure ad facere quibusdam dolor? Aliquid atque odit quod maiores, tenetur eligendi!</p></div></div>
+        <div class="row">
+          <div class="col text-center my-5">
+            <span class="h1">Mes experiences</span>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col">
+            <div class="card z-depth-0">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-3 my-1" id="blockAnnée1">
+                    <div class="card h-100 vio">
+                      <div class="card-body text-center text-white h4-responsive ">
+                        <p class="my-5">MOIS</p>
+                        <p class="my-5">ANNÉE</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-9 my-1" id="blockExperience1">
+                    <div class="card h-100">
+                      <div class="card-body text-center">
+                        <span class="h5-responsive">TITRE EXPERIENCES</span><br>
+                        <span class="h6-responsive">TITRE EXPERIENCES</span><br>
+                        <ul class="no_puce my-3">
+                          <li> <i class="fas fa-minus-square text-vio"></i> Tache n°1</li>
+                          <li> <i class="fas fa-minus-square text-vio"></i> Tache n°1</li>
+                          <li> <i class="fas fa-minus-square text-vio"></i> Tache n°1</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-5">
+                  <div class="col-lg-3 my-1" id="blockAnnée2">
+                    <div class="card h-100">
+                      <div class="card-body text-center">
+                        <p class="my-5">MOIS</p>
+                        <p class="my-5">ANNÉE</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-9 my-1" id="blockExperience2">
+                    <div class="card h-100">
+                      <div class="card-body text-center">
+                        <span class="h5-responsive">TITRE EXPERIENCES</span><br>
+                        <span class="h6-responsive">TITRE EXPERIENCES</span><br>
+                        <ul class="no_puce my-3">
+                          <li> Tache n°1</li>
+                          <li> Tache n°1</li>
+                          <li> Tache n°1</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </section>
 
-    <section id="contact">
-
+    <section id="form">
+      <div class="container-sm">
+      <div class="row my-5">
+        <div class="col-lg-12">
       <div class="contact">
-          <h5 class="card-header vio white-text text-center py-4">
+          <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+          aria-controls="multiCollapseExample1"><h5 class="card-header vio white-text text-center py-4">
           <strong>Contactez-moi</strong>
-          </h5>
+          </h5></a>
+          
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card-body px-lg-5 pt-0">
 
-        <div class="card-body px-lg-5 pt-0">
-
-          <form class="text-center" style="color: #757575;" action="#!">
+          <form class="text-center" style="color: #757575;" action="https://formspree.io/f/myybzpel" method="POST">
             <div class="md-form mt-3">
-              <input type="text" id="materialContactFormName" class="form-control">
+              <input name="name"type="text" id="materialContactFormName" class="form-control" required>
               <label for="materialContactFormName">Nom</label>
             </div>
               <div class="md-form">
-                <input type="email" id="materialContactFormEmail" class="form-control">
+                <input name="_replyto" type="email" id="materialContactFormEmail" class="form-control" required>
                 <label for="materialContactFormEmail">E-mail</label>
               </div>
                 <div class="md-form">
-                  <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                  <textarea name="message" id="materialContactFormMessage" class="form-control md-textarea" rows="3" required></textarea>
                   <label for="materialContactFormMessage">Message</label>
                 </div>
-              <button class="btn vio btn-rounded text-white btn-block z-depth-0 my-4 waves-effect" type="submit">Envoyez</button>
+              <button class="btn vio btn-rounded text-white btn-block z-depth-0 my-4 waves-effect" type="submit" value="Send">Envoyez<i class="fas fa-paper-plane mx-3"></i></button>
           </form>
       </div>
+    </div>
+    </div>
       </div>
+    </div>
+    </div>
     </section>
 
     <section id="footer">
@@ -365,9 +343,7 @@
           </div>
       </footer>
     </section>
-    <!-- End your project here-->
 
-    <!-- jQuery -->
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="./js/popper.min.js"></script>
